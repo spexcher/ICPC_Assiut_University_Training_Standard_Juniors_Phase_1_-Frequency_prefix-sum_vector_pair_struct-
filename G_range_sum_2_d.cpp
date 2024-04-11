@@ -183,16 +183,11 @@ void solve()
   cin >> v;
   vvi pre(n + 1, vi(m + 1));
   Fo(i, 1, n) Fo(j, 1, m)
-  {
-    pre[i][j] = pre[i - 1][j] + pre[i][j - 1] - pre[i - 1][j - 1] + v[i - 1][j - 1];
-  }
-  // fo(i, n + 1)
-  //     print(pre[i]);
+      pre[i][j] = pre[i - 1][j] + pre[i][j - 1] - pre[i - 1][j - 1] + v[i - 1][j - 1];
   int x1, y1, x2, y2;
   while (q--)
   {
     cin >> x1 >> y1 >> x2 >> y2;
-    int res = pre[x2][y2] - pre[x2][y1 - 1] - pre[x1 - 1][y2] + pre[x1 - 1][y1 - 1];
-    print(res);
+    print(pre[x2][y2] - pre[x2][y1 - 1] - pre[x1 - 1][y2] + pre[x1 - 1][y1 - 1]);
   }
 }
