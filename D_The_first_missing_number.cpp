@@ -182,6 +182,7 @@ void solve()
   vi v(n);
   cin >> v;
   sortall(v);
+  unq(v);
   int p = 0;
   Fo(i, -m, m)
   {
