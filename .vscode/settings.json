@@ -20,6 +20,7 @@
         "stacktrace": "cpp",
         "regex": "cpp",
         "valarray": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "bitset": "cpp"
     }
 }
