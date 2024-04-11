@@ -6,6 +6,12 @@
         "vector": "cpp",
         "string_view": "cpp",
         "span": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "string": "cpp",
+        "format": "cpp",
+        "random": "cpp",
+        "chrono": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
     }
 }
